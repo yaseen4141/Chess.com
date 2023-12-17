@@ -1,0 +1,705 @@
+/* Ashrafli Yasin
+Web programing-1  Group-C */
+
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #312e2b;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  
+    
+}
+.container{
+    position: fixed;
+}
+
+.menu {
+    background-color: #262421;
+    width: 145px;
+    height: 735px;
+}
+.menu a {
+    font-size: 17px;
+    color: white;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,Helvetica,Arial,sans-serif;
+    width: 145px;
+    font-weight: bold;
+    height: 45px;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.ok {
+     margin-bottom: -15px; 
+    padding-top: 15px;
+    width: 48px;
+    background-color: #15141200;
+}
+.log {
+    width: 125px;
+    height: 28px;
+    margin-left: 10px;
+    border-radius: 3px;
+    background-color: #312e2b;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+.log1 {
+    background-color: #81B64C;
+    color: #ffffff;
+    width: 125px;
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.log2 {
+    background-color: #3f3e3a;
+    color: #ffffff;
+    width: 125px;
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.log:hover, .log1:hover, .log2:hover {
+    border-color: #ffffff;
+    box-shadow: #ffffff;
+}
+
+.log2:hover {
+    background-color: #44413d;
+}
+
+.log1:hover {
+    background-color: #95c665;
+}
+.chessback {
+    left: 490px;
+    height: 496px;
+    width: 496px;
+    
+    border-radius: 10px;
+}
+#img23{
+    width: 28px;
+    height: 25px;
+    padding: 10px;
+    
+}
+
+a.text{
+    font-size: 13px;
+    color: #ffffff;
+}
+
+.sekil{
+    padding-top: 10px;
+}
+.sekil1 {
+ 
+    
+    width: 900px;
+    position: absolute;
+    left: 310px;
+    top: 25px;
+}
+.giris{
+    
+    width: 350px;
+    position: absolute;
+    left: 950px;
+    top: 40px;
+    color: white;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,Helvetica,Arial,sans-serif;
+    font-size: 55px;
+    font-weight: 600;
+    line-height: 1.13;
+    margin-bottom: 1.6rem;
+    padding: 0;
+    text-align: center;
+    font-weight: bold;
+}
+.gamer{
+    top: 250px;
+    left: 890px;
+    position: absolute;
+    width: 200px;
+    text-align: center;
+    font-size: 18px;
+    color: #ffffff;
+}
+.exi{
+    font-weight: bold;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,Helvetica,Arial,sans-serif;
+
+}
+.today{
+    color: #56544e;
+}
+.oyuncu{
+    top: 250px;
+    left: 1190px;
+    position: absolute;
+    width: 200px;
+    text-align: center;
+    font-size: 18px;
+    color: #ffffff;
+}
+.desdiq{
+    width: 400px;
+    height: 96px;
+    background-color: #81B64C;
+    position: absolute;
+    margin-left: 950px;
+    top: 300px;
+    border-radius: 14px;
+    box-shadow: 0px 5px 0px 0px rgb(35, 121, 35);
+    transition: brightness 0.3s ease-in-out;
+    cursor: pointer;
+}
+.eli img{
+    width: 65px;
+    height: 65px;
+    padding-top: 15px;
+    padding-left: 16px;
+    
+
+}
+.hola{
+    bottom: 38px;
+    position: absolute;
+    right: 120px;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,Helvetica,Arial,sans-serif;
+}
+.levil{
+    font-size: 14px;
+    padding-bottom: 5px;
+    position: absolute;
+    width: 250px;
+    
+}
+.desdiq  a{
+    color: #ffffff;
+
+}
+.desdiq:hover{
+    filter: brightness(120%);
+}
+.desdiq-2{
+    width: 400px;
+    height: 96px;
+    background-color: #3c3d3b;
+    position: absolute;
+    margin-left: 950px;
+    top: 425px;
+    cursor: pointer;
+    border-radius: 14px;
+    box-shadow: 0px 5px 0px 0px rgb(53, 54, 53);
+    transition: brightness 0.3s ease-in-out;
+}
+.veli img{
+    width: 65px;
+    height: 65px;
+    padding-top: 15px;
+    padding-left: 16px;
+}
+.kola{
+    bottom: 38px;
+    position: absolute;
+    right: 120px;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,Helvetica,Arial,sans-serif;
+}
+.devil{
+    font-size: 14px;
+    padding-bottom: 5px;
+    position: absolute;
+    width: 250px;
+}
+.desdiq-2  a{
+    color: #a7a6a6;
+
+}
+.desdiq-2:hover{
+    filter: brightness(120%);
+}
+#section3{
+background-color: #262421;
+width: 1100px;
+height: 490px;
+margin-left: 310px;
+top: 600px;
+position: relative;
+border-radius: 10px;
+overflow: hidden;
+}
+.yaz{
+    font-size: 35px;
+    color: white;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    padding-left: 150px;
+    padding-top: 40px;
+}
+.chessback2{
+ padding-left: 700px;
+ bottom: 55px;
+ border-radius: 2px;
+ position: absolute;
+}
+.puzl{
+    bottom: 38px;
+    position: absolute;
+    right: 120px;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,Helvetica,Arial,sans-serif;
+} 
+.solv{
+    font-size: 24px;
+    padding-top: 20px;
+    padding-left: 80px;
+    position: absolute;
+    font-weight: bold;
+    width: 250px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,Helvetica,Arial,sans-serif;
+
+}
+.umum a{
+        color: #ffffff;
+    }
+.umum:hover{
+    filter: brightness(120%);
+}
+.umum{
+    width: 300px;
+    height: 76px;
+    background-color: #81B64C;
+    position: absolute;
+    margin-left: 170px;
+    top: 150px;
+    cursor: pointer;
+    border-radius: 14px;
+    box-shadow: 0px 5px 0px 0px rgb(35, 121, 35);
+    transition: brightness 0.3s ease-in-out;
+}
+.hiku img{
+    width: 150px;
+    height: 150px;
+    left: 50px;
+    position: relative;
+    top: 200px;
+    border-radius: 5px;
+}
+.yazi{
+    width: 260px;
+    position: relative;
+    left: 270px;
+    top: 70px;
+    color: #a5a5a5;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,Helvetica,Arial,sans-serif;
+
+}
+.Hikamuro{
+    position: relative;
+    left: 310px;
+    top: 100px;
+    color: #999999;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,Helvetica,Arial,sans-serif;
+
+}
+.g{
+    background-color: #eb4949;
+    width: 30px;
+    height: 20px;
+    position: relative;
+    left: 270px;
+    border-radius: 5px;
+    font-weight: bold;
+    top: 80px;
+    color: #fcfbfb;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,Helvetica,Arial,sans-serif;
+}
+.section4{
+    background-color: #262421;
+width: 1100px;
+height: 490px;
+margin-left: 310px;
+top: 600px;
+position: relative;
+border-radius: 10px;
+overflow: hidden;
+}
+.classbir{
+    font-size: 35px;
+    color: white;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    padding-left: 670px;
+    padding-top: 40px;
+}
+.chessback3{
+    padding-left: 700px;
+    bottom: 55px;
+    border-radius: 2px;
+    position: absolute;
+    width: 345px;
+    height:  345px;
+}
+   .mimi{
+    width: 300px;
+    height: 76px;
+    cursor: pointer;
+    background-color: #81B64C;
+    position: absolute;
+    margin-left: 670px;
+    top: 150px;
+    border-radius: 14px;
+    box-shadow: 0px 5px 0px 0px rgb(35, 121, 35);
+    
+}
+.mimi a{
+    color: #ffffff;
+
+}
+.mimi:hover{
+filter: brightness(120%);
+}
+.anna img{
+    width: 150px;
+    height: 150px;
+    left: 490px;
+    position: relative;
+    top: 185px;
+    border-radius: 5px;
+}
+.hell{
+    font-size: 24px;
+    padding-top: 20px;
+    padding-left: 80px;
+    cursor: pointer;
+    position: absolute;
+    font-weight: bold;
+    width: 250px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,Helvetica,Arial,sans-serif;
+
+}
+.typ{
+    width: 260px;
+    position: relative;
+    left: 710px;
+    top: 60px;
+    color: #a5a5a5;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,Helvetica,Arial,sans-serif;
+
+}
+.angelina{
+    position: relative;
+    left: 740px;
+    top: 90px;
+    color: #999999;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,Helvetica,Arial,sans-serif;
+
+}
+.d{
+    background-color: #eb4949;
+    width: 25px;
+    height: 20px;
+    position: relative;
+    left: 710px;
+    border-radius: 5px;
+    top: 70px;
+    font-weight: bold;
+    color: #fcfbfb;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,Helvetica,Arial,sans-serif;
+
+}
+.qizolansekil img{
+    position: absolute;
+    width: 360px;
+    height: 360px;
+    top: 60px;
+    left: 55px;
+    border-radius: 5px;
+}
+.section5{
+    background-color: #312e2b;
+    width: 1100px;
+    height: 900px;
+    margin-left: 310px;
+    top: 600px;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.follo{
+font-size: 16px;
+color: floralwhite;
+font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,Helvetica,Arial,sans-serif;
+position: absolute;
+padding-top: 620px;
+left: 550px;
+}
+.follo a{
+    color: #ffffff;
+}
+.else:hover{
+    filter: brightness(93%);
+    }
+
+.secondone img{
+    position: absolute;
+    width: 500px;
+    height: 300px;
+}
+.thirdone img{
+    position: absolute;
+    width: 530px;
+    height: 300px;
+    right: 0px;
+}
+.firstone img{
+    position: absolute;
+    width: 500px;
+    height: 308px;
+    top:460px;
+    right: 0px;
+}
+.fourthone img{
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    top: 460px;
+}
+.championcarl > a{
+    position: absolute;
+    bottom: 95px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    right: 40px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,Helvetica,Arial,sans-serif;
+
+}
+.antony > a{
+    position: absolute;
+    bottom: 70px;
+    color: #d6d6d6;
+    font-weight: bold;
+    right: 180px;
+    font-size: 14px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,Helvetica,Arial,sans-serif;
+
+}
+.m{
+    background-color: #eb4949;
+    width: 30px;
+    height: 20px;
+    position: absolute;
+    right: 450px;
+    bottom: 95px;
+    color: #fcfbfb;
+    font-weight: bold;
+    border-radius: 5px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,Helvetica,Arial,sans-serif;
+}
+.hindli > a{
+    position: absolute;
+    bottom: 95px;
+    color: #ffffff;
+    font-weight: bold;
+    left: 65px;
+    font-size: 16px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,Helvetica,Arial,sans-serif;
+
+}
+.neqr > a{
+    position: absolute;
+    bottom: 70px;
+    color: #dcdbdb;
+    font-weight: bold;
+    left: 210px;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,Helvetica,Arial,sans-serif;
+
+}
+.h{
+    background-color: #eb4949;
+    width: 30px;
+    height: 20px;
+    position: absolute;
+    left: 25px;
+    bottom: 95px;
+    color: #fcfbfb;
+    font-weight: bold;
+    border-radius: 5px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,Helvetica,Arial,sans-serif;
+}
+.micik > a{
+        position: absolute;
+        top: 335px;
+        color: #e9e7e7;
+        font-weight: bold;
+        left: 75px;
+        cursor: pointer;
+        font-size: 16px;
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,Helvetica,Arial,sans-serif;
+    
+
+}
+.miki >a{
+    position: absolute;
+    top: 365px;
+    color: #c3c2c2;
+    font-weight: bold;
+    cursor: pointer;
+    left: 230px;
+    font-size: 14px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,Helvetica,Arial,sans-serif;
+
+}
+.leon > a{
+position: absolute;
+top: 335px;
+color: #e9e7e7;
+font-weight: bold;
+right: 60px;
+width: 400px;
+font-size: 16px;
+cursor: pointer;
+text-align: center;
+font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,Helvetica,Arial,sans-serif;
+}
+.seid > a{
+    position: absolute;
+        top: 385px;
+        color: #e9e7e7;
+        font-weight: bold;
+        cursor: pointer;
+        right: 215px;
+        font-size: 14px;
+        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,Helvetica,Arial,sans-serif;
+    
+}
+.last a{
+    color: #ffffff;
+}
+.last:hover{
+filter: brightness(120%);
+}
+.last{
+width: 300px;
+height: 76px;
+background-color: #81B64C;
+position: absolute;
+margin-left: 450px;
+bottom:  120px;
+cursor: pointer;
+border-radius: 14px;
+box-shadow: 0px 5px 0px 0px rgb(35, 121, 35);
+transition: brightness 0.3s ease-in-out;
+}
+.chesstoday{
+    bottom: 38px;
+    position: absolute;
+    right: 120px;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,Helvetica,Arial,sans-serif;
+} 
+.ches{
+    font-size: 24px;
+    padding-top: 20px;
+    padding-left: 80px;
+    position: absolute;
+    font-weight: bold;
+    width: 250px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,Helvetica,Arial,sans-serif;
+
+}
+.axir{
+    
+width: 1100px;
+height: 490px;
+margin-left: 270px;
+top: 300px;
+position: relative;
+border-radius: 10px;
+overflow: hidden;
+}
+
+.footer{
+    position: relative;
+    bottom: -220px;
+    left: 450px;
+}
+
+.footer a{
+    color: #999999;
+    font-size: 13px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,Helvetica,Arial,sans-serif;
+}
+.footer a:hover{
+    color: white;
+}
+
+.icons{
+    position: relative;
+    left: 260px;
+    
+
+}
+.icons a{
+    margin-bottom: 10px;
+    padding: 7px;
+    font-size: 20px;
+}
+
+.fa-apple:hover{
+    color: white;
+
+}
+.fa-android:hover{
+    color: rgb(63, 175, 117);
+}
+.fa-tiktok:hover{
+    color: white;
+}
+
+.fa-x-twitter:hover{
+    color: white;
+}
+.fa-youtube:hover{
+color: red;
+}
+
+.fa-twitch:hover{
+color: rgb(169, 104, 249);
+}
+
+.fa-instagram:hover{
+color: rgb(246, 71, 71);
+}
+
+.fa-discord:hover{
+color: rgb(58, 58, 202);
+}
